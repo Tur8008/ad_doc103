@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Обновление продукта через интернет &mdash; Документация Алкогольная декларация для 1С (УТ 10.3, ред. 2.0) 2.0.1</title>
+    
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '2.0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/translations.js"></script>
+    <link rel="top" title="Документация Алкогольная декларация для 1С (УТ 10.3, ред. 2.0) 2.0.1" href="index.html" />
+    <link rel="next" title="Видеообзоры и видеоуроки" href="videos.html" />
+    <link rel="prev" title="Сервисные функции" href="service_function.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Навигация</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="Алфавитный указатель"
+             accesskey="I">указатель</a></li>
+        <li class="right" >
+          <a href="videos.html" title="Видеообзоры и видеоуроки"
+             accesskey="N">вперёд</a> |</li>
+        <li class="right" >
+          <a href="service_function.html" title="Сервисные функции"
+             accesskey="P">назад</a> |</li>
+        <li><a href="index.html">Документация Алкогольная декларация для 1С (УТ 10.3, ред. 2.0) 2.0.1</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="id1">
+<h1>Обновление продукта через интернет<a class="headerlink" href="#id1" title="Ссылка на этот заголовок">¶</a></h1>
+<p>Вы можете получать актуальные версии продукта &#8220;Алкогольная декларация&#8221; автоматически, через интернет. Для того чтобы перейти к процедуре обновления необходимо вызвать модуль обновления отчета. Это можно сделать в группе команд <strong>&#8220;О программе&#8221;</strong>, которая находится в правом нижнем углу главного окна отчета <strong>&#8220;Алкогольная декларация для 1С&#8221;</strong></p>
+<div class="figure">
+<img alt="_images/update_1.png" src="_images/update_1.png" />
+</div>
+<p>Процедура автоматического обновления отчета &#8220;Алкогольная декларация&#8221; состоит из нескольких этапов. Самое главное что Вам необходимо сделать на начальном этапе обновления - правильно заполнить поле &#8220;Обработка в справочнике&#8221;. По умолчанию, при запуске процедуры обновления, модуль обновления осуществляет поиск по наименованию &#8220;Алкогольная декларация&#8221;  в справочнике  &#8220;Внешние обработки&#8221; и если поиск заканчивается успехом автоматически подставляет найденную внешнюю обработку. Если у Вас вправочнике внешние обработки  наименование отличается от стандартного (&#8220;Алкогольная декларация&#8221;), тогда Вам необходимо указать обновляемую обработку вручную.</p>
+<div class="admonition note">
+<p class="first admonition-title">Примечание</p>
+<p class="last">К сожалению функциональные ограничения платформы &#8220;1С:Предприятие 8&#8221; не позволяют программно определить какой именно элемент справочника &#8220;Внешние обработки&#8221; был запущен поэтому выбор обработки для обновления, к сожалению, является зоной ответственности пользователя.</p>
+</div>
+<div class="figure">
+<img alt="_images/update_2.png" src="_images/update_2.png" />
+</div>
+<p>Для того чтобы процедура проверки обновлений стала регулярной и неотвратимой, т.е. осуществлялась при каждом запуске отчета необходимо установить флажок в поле &#8220;Проверять обновление алкогольной декларации через интернет при каждом запуске обработки&#8221;.</p>
+<p>Далее нажимаем <strong>&#8220;Далее&#8221;</strong>, простите за каламбур:)</p>
+<div class="figure">
+<img alt="_images/update_3.png" src="_images/update_3.png" />
+</div>
+<p>Если обновление найдено вы сможете на экране появится описание обновления, в частности номер текущего (обновляемого) релиза и номер релиза обновления. В разделе &#8220;Новое в версии&#8221; можно посмотреть информацию о содержании обновления.</p>
+<p>После ознакомления с описанием обновления, если вы согласны продожить процесс обновления нажмите кнопку <strong>&#8220;Далее&#8221;</strong>.</p>
+<div class="figure">
+<img alt="_images/update_4.png" src="_images/update_4.png" />
+</div>
+<p>Для того чтобы модуль автообновления мог скачать найденное обновление Вам необходимо, сообщить ему имя и пароль для доступа к серверу обновлений &#8220;Алкогольной декларации&#8221;.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Предупреждение</p>
+<p class="last">Для получения логина и пароля напишите пожалуйста письмо по адресу <a class="reference external" href="mailto:bit&#37;&#52;&#48;biz-intel&#46;ru">bit<span>&#64;</span>biz-intel<span>&#46;</span>ru</a> с темой &#8220;Алкогольная декларация для 1С&#8221; в теле письма укажите номер и дату Вашего заказа. В ответ на Ваше письмо мы вышлем Вам логин и пароль для доступа.</p>
+</div>
+<p>После нажатия кнопки <strong>&#8220;Далее&#8221;</strong> (в случае успешной авторизации, конечно) последует предупреждение.</p>
+<div class="figure">
+<img alt="_images/update_5.png" src="_images/update_5.png" />
+</div>
+<p>Предупреждение говорит о том, что Вы обновляете конкретный элемент справочника <em>&#8220;Внешние обработки&#8221;</em>, который вы указали в поле <em>&#8220;Обработка в справочнике&#8221;</em> и который будет перезаписан новой версией отчета &#8220;Алкогольная декларация&#8221;. Лицензионным соглашением нашего продукта не запрещается изменять исходный код &#8220;Алкогольной декларации&#8221;, и если Вы ее изменили, переделали &#8220;под себя&#8221; то можете потерять результаты своего труда.</p>
+<p>После обновления &#8220;Алкогольная декларация&#8221; будет закрыта и Вам нужно будет запустить ее снова старым, привычным способом (Меню &#8220;Сервис&#8221;= &gt; &#8220;Внешние печатные формы и обработки&#8221; =&gt; &#8220;Внешние обработки&#8221; ).</p>
+<div class="figure">
+<img alt="_images/update_6.png" src="_images/update_6.png" />
+</div>
+<p>При первом запуске обработки на экране появится информация о содержании обновления. Поздравляем Вас процедура обновления завершена.</p>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Предыдущий раздел</h4>
+  <p class="topless"><a href="service_function.html"
+                        title="предыдущая глава">Сервисные функции</a></p>
+  <h4>Следующий раздел</h4>
+  <p class="topless"><a href="videos.html"
+                        title="следующая глава">Видеообзоры и видеоуроки</a></p>
+  <div role="note" aria-label="source link">
+    <h3>Эта страница</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/update.txt"
+            rel="nofollow">Исходный текст</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Быстрый поиск</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Искать" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Введите слова для поиска или имя модуля, класса или функции.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Навигация</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="Алфавитный указатель"
+             >указатель</a></li>
+        <li class="right" >
+          <a href="videos.html" title="Видеообзоры и видеоуроки"
+             >вперёд</a> |</li>
+        <li class="right" >
+          <a href="service_function.html" title="Сервисные функции"
+             >назад</a> |</li>
+        <li><a href="index.html">Документация Алкогольная декларация для 1С (УТ 10.3, ред. 2.0) 2.0.1</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2015, ООО &#34;Бизнес Интеллект С&#34;.
+      Создано с помощью <a href="http://sphinx-doc.org/">Sphinx</a> 1.3b2.
+    </div>
+  </body>
+</html>

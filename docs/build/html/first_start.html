@@ -1,0 +1,172 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Подготовка к работе &mdash; Документация Алкогольная декларация для 1С (УТ 10.3, ред. 2.0) 2.0.1</title>
+    
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '2.0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/translations.js"></script>
+    <link rel="top" title="Документация Алкогольная декларация для 1С (УТ 10.3, ред. 2.0) 2.0.1" href="index.html" />
+    <link rel="next" title="Формирование декларации" href="basic_function.html" />
+    <link rel="prev" title="О продукте" href="intro.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Навигация</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="Алфавитный указатель"
+             accesskey="I">указатель</a></li>
+        <li class="right" >
+          <a href="basic_function.html" title="Формирование декларации"
+             accesskey="N">вперёд</a> |</li>
+        <li class="right" >
+          <a href="intro.html" title="О продукте"
+             accesskey="P">назад</a> |</li>
+        <li><a href="index.html">Документация Алкогольная декларация для 1С (УТ 10.3, ред. 2.0) 2.0.1</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="id1">
+<span id="id2"></span><h1>Подготовка к работе<a class="headerlink" href="#id1" title="Ссылка на этот заголовок">¶</a></h1>
+<div class="section" id="id3">
+<h2>Первый запуск<a class="headerlink" href="#id3" title="Ссылка на этот заголовок">¶</a></h2>
+<p>При первом запуске отчета, после принятия условий лицензионного соглашения, на экране появится окно сервисного блока со следующим сообщением.</p>
+<div class="figure">
+<img alt="_images/firsrtstart_1.png" src="_images/firsrtstart_1.png" />
+</div>
+<p>Это означает, что до начала работы необходимо сделать определенные настройки. Это касается параметров учета конфигурации, а также дополнительных свойств и характеристик некоторых справочников и документов, в том числе справочников &#8220;организации&#8221;, &#8220;контрагенты&#8221;, &#8220;номенклатура&#8221;  и  документа &#8220;Поступления товаров и услуг&#8221; (только для формы 8).</p>
+<p>После нажатия кнопки &#8220;Да&#8221; автоматически запустится модуль проверки параметров учета. В результате проверки для параметров учета (верхняя табличная часть) будут выданы конкретные рекоммендации по настройкам параметров учета и учетной политики необходимых для корректной работы отчета. Для справочников и документов одновременно с проверкой будут создаваться недостающие дополнительные реквизиты (свойства и характеристики).</p>
+<div class="figure">
+<img alt="_images/firsrtstart_2.png" src="_images/firsrtstart_2.png" />
+</div>
+<p>Чтобы обеспечить правильную работу отчета, необходимо изменить настройки учетной политики и настройки параметров учета так, чтобы они соответствовали рекомендованным. Тоже касается и набора дополнительных реквизитов справочников.</p>
+<p>Настройки учетной политики должны быть сделаны Вами вручную, согласно нашим рекомендациям.</p>
+<div class="admonition note">
+<p class="first admonition-title">Примечание</p>
+<p class="last">Модуль <em>&#8220;Проверка параметров&#8221;</em> расположен в блоке <em>&#8220;Сервис&#8221;</em> и всегда может быть использован для проверки готовности конфигурации при работе с отчетом.</p>
+</div>
+</div>
+<div class="section" id="id4">
+<h2>Справочник &#8220;Номенклатура&#8221;<a class="headerlink" href="#id4" title="Ссылка на этот заголовок">¶</a></h2>
+<p>При заполнении справочника &#8220;Номенклатура&#8221;, на закладке &#8220;Характеристики&#8221; появится характеритика &#8220;Производитель&#8221;, в качестве значений которой можно указывать элементы справочника &#8220;Контрагенты&#8221;.</p>
+<div class="figure">
+<img alt="_images/firsrtstart_3.png" src="_images/firsrtstart_3.png" />
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Примечание</p>
+<p class="last">Использование характеристик номенклатуры, в отличие от серий позволит учетной программе более жестко контролировать остатки при продаже товаров. Например, при проведении документа &#8220;Реализация товаров и услуг&#8221;, или &#8220;Отчет о розничных продажах&#8221;, если для учета в разрезе производителей используются серии номенклатуры, при недостатке товаров на складе будет выдано всего лишь предупреждение о невозможности списания по партиям, однако сам документ будет при этом проведен. В дальнейшем это приведет к накоплению ошибок и трудностях при формировании декларации. Использование характеристик в данной ситуации не позволит проводить документы при недостатке товаров на складе.</p>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Предупреждение</p>
+<p class="last">Чтобы иметь возможность заполнять характеристики номенклатуры, необходимо поставить галочку &#8220;Вести учет по доп. характеристикам&#8221;. Также, если предполагается указывать в таблице 2 приложений 11 и 12 информации по ГТД, необходимо поставить галочки &#8220;Вести учет по сериям&#8221; и &#8220;Вести партионный учет по сериям&#8221;.</p>
+</div>
+<p>Помимо характеристики &#8220;Производитель&#8221; необходимо также заполнить свойства номенклатуры:</p>
+<div class="figure">
+<img alt="_images/firsrtstart_4.png" src="_images/firsrtstart_4.png" />
+</div>
+<p>Свойство &#8220;Код товара&#8221; заполняется из отдельного справочника и служит для отнесения элемента справочника &#8220;Номенклатура&#8221; к определенному виду алкогольной продукции. Свойство &#8220;Производитель по умолчанию&#8221; заполняется из справочника &#8220;Контрагенты&#8221; и служит для того, чтобы при печати и выгрузке приложений алкогольной декларации, в том случае, если не заполнены характеристика номенклатуры, вместо &#8220;пустых&#8221; производителей подставлялось значение из этого свойства. Это может быть удобно, например, для товаров, по которым уже накоплено достаточно много учетной информации, однако у этого товара единственный производитель. Заполнив это свойство, декларация сформируется правильно, даже, если в документах закупки и продажи указана &#8220;пустая&#8221; характеристика номенклатуры.</p>
+<p>На закладке &#8220;Единицы&#8221; необходимо указать объем в литрах для базовой единицы измерения (например для бутылки или банки), пересчет в деколитры при формировании декларации будет произведен автоматически.</p>
+<div class="figure">
+<img alt="_images/firsrtstart_5.png" src="_images/firsrtstart_5.png" />
+</div>
+</div>
+<div class="section" id="id5">
+<h2>Справочник &#8220;Контрагенты&#8221;<a class="headerlink" href="#id5" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Для поставщиков алкогольной продукции необходимо указать данные о лицензии.</p>
+<div class="figure">
+<img alt="_images/firsrtstart_6.png" src="_images/firsrtstart_6.png" />
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Оглавление</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Подготовка к работе</a><ul>
+<li><a class="reference internal" href="#id3">Первый запуск</a></li>
+<li><a class="reference internal" href="#id4">Справочник &#8220;Номенклатура&#8221;</a></li>
+<li><a class="reference internal" href="#id5">Справочник &#8220;Контрагенты&#8221;</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Предыдущий раздел</h4>
+  <p class="topless"><a href="intro.html"
+                        title="предыдущая глава">О продукте</a></p>
+  <h4>Следующий раздел</h4>
+  <p class="topless"><a href="basic_function.html"
+                        title="следующая глава">Формирование декларации</a></p>
+  <div role="note" aria-label="source link">
+    <h3>Эта страница</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/first_start.txt"
+            rel="nofollow">Исходный текст</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Быстрый поиск</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Искать" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Введите слова для поиска или имя модуля, класса или функции.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Навигация</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="Алфавитный указатель"
+             >указатель</a></li>
+        <li class="right" >
+          <a href="basic_function.html" title="Формирование декларации"
+             >вперёд</a> |</li>
+        <li class="right" >
+          <a href="intro.html" title="О продукте"
+             >назад</a> |</li>
+        <li><a href="index.html">Документация Алкогольная декларация для 1С (УТ 10.3, ред. 2.0) 2.0.1</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2015, ООО &#34;Бизнес Интеллект С&#34;.
+      Создано с помощью <a href="http://sphinx-doc.org/">Sphinx</a> 1.3b2.
+    </div>
+  </body>
+</html>
